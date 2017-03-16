@@ -22,7 +22,7 @@ defined( '_JEXEC' ) or die( 'Restricted access' );
 
 	<div class="modal-footer">
 		<button class="btn" data-dismiss="modal" aria-hidden="true"><?php echo JText::_('PLG_SYSTEM_F90DELETEMYACCOUNT_CLOSE');?></button>
-		<button id="dma-send-request" class="btn btn-primary" data-loading-text="Sending request..." onclick="dma.delete_request(); return false;"><?php echo JText::_('PLG_SYSTEM_F90DELETEMYACCOUNT_BUTTON');?></button>
+		<button id="dma-send-request" class="btn btn-danger" data-loading-text="Sending request..." onclick="dma.delete_request(); return false;"><?php echo JText::_('PLG_SYSTEM_F90DELETEMYACCOUNT_BUTTON');?></button>
 		
 	</div>
 	</div>
